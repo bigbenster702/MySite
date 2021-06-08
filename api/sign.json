@@ -1,9 +1,9 @@
 {
-  "signmessage": "Sus.",
+  "signmessage": "Yesn't",
   "message": "true",
-  "decal": "true",
+  "decal": "false",
   "decalid": "http://www.roblox.com/asset/?id=6817725694",
-  "music": "false",
-  "musicid": "rbxassetid://6186307926",
-  "musicvolume": "1"
+  "music": "true",
+  "musicid": "rbxassetid://2784230379",
+  "musicvolume": "10"
 }
