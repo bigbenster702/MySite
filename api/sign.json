@@ -1,6 +1,6 @@
 {
   "power": "true",
-  "explodemode": "true",
+  "explodemode": "false",
   "signmessage": "AmogOS",
   "message": "true",
   "decal": "true",
