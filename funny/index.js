@@ -11,6 +11,12 @@
  *  Patreon:
  *    If you enjoyed this, please support me on Patreon!
  *    https://www.patreon.com/feross
+ *  
+ *  Support the author above!
+ * 
+ *  Edited by:
+ *    bigbenster702
+ * 
  */
 
 const SCREEN_WIDTH = window.screen.availWidth
@@ -59,20 +65,32 @@ const SEARCHES = [
   'why does my mom hate me',
   'why did roblox go down for three days',
   'why did your mom',
-  'proof that the earth is flat'
+  'proof that the earth is flat',
+  'what is wrong with you',
+  'the funny is now thanks to science',
+  'quantum science is pog',
+  'why does my computer explode',
+  'maybe because it is a chromebook',
+  'why is why because why',
+  'why did my dad leave me'
 ]
 
 const VIDEOS = [
   'albundy.mp4',
   'badger.mp4',
   'cat.mp4',
-  'hasan.mp4',
   'heman.mp4',
-  'jozin.mp4',
   'nyan.mp4',
-  'rickroll.mp4',
-  'space.mp4',
-  'trolol.mp4'
+  'trolol.mp4',
+  'amogus.mp4',
+  '1984.mp4',
+  'catsgobrr.mp4',
+  'funkey.mp4',
+  'DJ.mp4',
+  'dispenser.mp4',
+  'Trolley.mp4',
+  'clown.mp4',
+  'video0.mp4'
 ]
 
 const FILE_DOWNLOADS = [
@@ -83,8 +101,7 @@ const FILE_DOWNLOADS = [
   'cat-hover.jpg',
   'cat-marshmellows.jpg',
   'cat-small-face.jpg',
-  'cat-smirk.jpg',
-  'patreon.png'
+  'cat-smirk.jpg'
 ]
 
 const PHRASES = [
@@ -95,7 +112,8 @@ const PHRASES = [
   'hee haw hee haw hee haw hee haw hee haw hee haw hee haw hee haw hee haw hee haw hee haw',
   'abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz',
   'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak',
-  'eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo'
+  'eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo eyo',
+  'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
 ]
 
 const LOGOUT_SITES = {
@@ -136,7 +154,7 @@ const LOGOUT_SITES = {
   Wordpress: ['GET', 'https://wordpress.com/wp-login.php?action=logout'],
   Yahoo: ['GET', 'https://login.yahoo.com/config/login?.src=fpctx&logout=1&.direct=1&.done=https://www.yahoo.com/'],
   YouTube: ['POST', 'https://www.youtube.com', { action_logout: '1' }]
-}
+} /* Mega trolling */
 
 /**
  * Array to store the child windows spawned by this window.
@@ -895,7 +913,7 @@ function rainbowThemeColor () {
  * Copy cat pictures onto the user's clipboard. Requires user-initiated event.
  */
 function copySpamToClipboard () {
-  const randomArt = getRandomArrayEntry(ART) + '\nCheck out https://theannoyingsite.com'
+  const randomArt = getRandomArrayEntry(ART) + '\nCheck out https://theannoyingsite.com since this is a edited version! :)'
   clipboardCopy(randomArt)
 }
 
