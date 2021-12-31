@@ -1,6 +1,6 @@
 {
   "power": "true",
-  "explodemode": "false",
+  "explodemode": "true",
   "signmessage": "HEHEHAHAW",
   "message": "true",
   "decal": "true",
