@@ -1,6 +1,6 @@
 {
   "power": "true",
-  "explodemode": "false",
+  "explodemode": "true",
   "signmessage": "TF2",
   "message": "true",
   "decal": "true",
