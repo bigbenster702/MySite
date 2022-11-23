@@ -1,6 +1,6 @@
 {
   "power": "true",
-  "explodemode": "false",
+  "explodemode": "true",
   "signmessage": "XBOX LIVEEEE",
   "message": "true",
   "decal": "true",
