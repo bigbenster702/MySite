@@ -1,11 +1,11 @@
 {
   "power": "true",
-  "explodemode": "true",
-  "signmessage": "XBOX LIVEEEE",
+  "explodemode": "false",
+  "signmessage": "Hi blookers!",
   "message": "true",
-  "decal": "true",
+  "decal": "false",
   "decalid": "http://www.roblox.com/asset/?id=8417038929",
-  "music": "true",
+  "music": "false",
   "musicid": "rbxassetid://8463226607",
   "musicvolume": "1"
 }
